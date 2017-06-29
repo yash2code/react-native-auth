@@ -1,0 +1,40 @@
+{
+  "name": "login",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "react-native-scripts": "0.0.30",
+    "jest-expo": "~1.0.1",
+    "react-test-renderer": "16.0.0-alpha.6"
+  },
+  "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
+  "scripts": {
+    "start": "react-native-scripts start",
+    "eject": "react-native-scripts eject",
+    "android": "react-native-scripts android",
+    "ios": "react-native-scripts ios",
+    "test": "node node_modules/jest/bin/jest.js --watch"
+  },
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "dependencies": {
+    "@expo/vector-icons": "^5.0.0",
+    "axios": "^0.16.1",
+    "es6-promise": "^4.1.0",
+    "expo": "^17.0.0",
+    "frisbee": "^1.5.0",
+    "isomorphic-fetch": "^2.2.1",
+    "native-base": "^2.1.4",
+    "react": "16.0.0-alpha.6",
+    "react-native": "^0.44.0",
+    "react-native-animatable": "^1.2.0",
+    "react-native-country-picker-modal": "github:xcarpentier/react-native-country-picker-modal",
+    "react-native-digitimate-client": "^1.0.1",
+    "react-native-form": "^2.1.2",
+    "react-native-loading-spinner-overlay": "^0.5.0",
+    "react-native-modal": "^2.4.0",
+    "react-native-multistep-wizard": "0.0.1",
+    "react-navigation": "^1.0.0-beta.11"
+  }
+}
