@@ -6,7 +6,7 @@
 
 ### Preview
 
-<img src='http://photoland.io/images/MqgjW.gif' alt='preview' >
+<img src='https://photoland.io/images/MqgjW.gif' width=500 alt='preview' >
 
 ### Contact
 - contact@yashchaudhary.me
