@@ -117,7 +117,7 @@ export default class PhoneAuth extends Component {
 
       try {
 
-        const res = await api.post('sendCode?developerEmail=aksoutofficial%40gmail.com&userMobileNumber=%2B'+this.state.country.callingCode+this.refs.form.getValues().phoneNumber+'&message=Code%3A', {
+        const res = await api.post('sendCode?developerEmail=youremail%40gmail.com&userMobileNumber=%2B'+this.state.country.callingCode+this.refs.form.getValues().phoneNumber+'&message=Code%3A', {
           body: {
             ...this.refs.form.getValues(),
             ...this.state.country
@@ -163,7 +163,7 @@ export default class PhoneAuth extends Component {
 
       try {
 
-        const res = await api.put('checkCode?developerEmail=aksoutofficial%40gmail.com&userMobileNumber=%2B'+this.state.country.callingCode+this.refs.form.getValues().phoneNumber+'&code='+this.refs.form.getValues().code , {
+        const res = await api.put('checkCode?developerEmail=youremail%40gmail.com&userMobileNumber=%2B'+this.state.country.callingCode+this.refs.form.getValues().phoneNumber+'&code='+this.refs.form.getValues().code , {
           body: {
             ...this.refs.form.getValues(),
             ...this.state.country

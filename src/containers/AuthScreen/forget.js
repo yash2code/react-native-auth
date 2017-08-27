@@ -30,7 +30,7 @@ export default class Forget extends Component {
 
 send_mail = () => {
 
-		fetch('https://aksout.com/api/forget', {
+		fetch('', {
 			method:'POST',
 			headers:{
 				'Accept' : 'application/json',

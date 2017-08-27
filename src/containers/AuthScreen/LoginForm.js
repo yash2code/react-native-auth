@@ -58,30 +58,7 @@ constructor(props) {
    
 
 
-/*doLogin(){
-  console.log(this.state)
-  axios.post('https://aksout.com/api/authenticate', JSON.stringify(this.state))   
-   .then(response => {
-      console.log(response);
-     // USER_TOKEN = response.data.token;
-      console.log('userresponse ' + response.data.token); 
-    })   
-   .catch((error) => {
-      console.log('error ' + error);   
-   });
-}*/
 
-
-
-/*const AuthStr = 'Bearer '.concat(USER_TOKEN); 
-axios.get(URL, { headers: { Authorization: AuthStr } })
- .then(response => {
-     // If request is good...
-     console.log(response.data);
-  })
- .catch((error) => {
-     console.log('error ' + error);
-  });*/
 
   hideForm = async () => {
     if (this.buttonRef && this.formRef && this.linkRef) {

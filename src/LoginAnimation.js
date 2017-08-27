@@ -52,12 +52,12 @@ if(this.state.alert==true){
   _simulateLogin = (username, password) => {
 
      //console.log();
-     fetch('https://aksout.com/api/authenticate', {
+     fetch('', {
            method: 'POST',
             headers: {
       'Accept': 'application/json',
       'Content-Type': 'application/json',
-     // 'Authorization':'Bearer  eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjE0NywiaXNzIjoiaHR0cHM6XC9cL2Frc291dC5jb21cL2FwaVwvYXV0aGVudGljYXRlIiwiaWF0IjoxNDk2MjM3MDcxLCJleHAiOjE0OTYyNDA2NzEsIm5iZiI6MTQ5NjIzNzA3MSwianRpIjoiVGdBZGZQNjBMS3k5QlVRZiJ9.VXBPZWBEamIwSIXvyk80XyiYJg2WcyfrldmUBUjJ1XQ'
+     // 'Authorization':''
   },
    body: JSON.stringify({
     username: username,
